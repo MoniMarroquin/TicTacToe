@@ -46,41 +46,7 @@ public class TTT : MonoBehaviour
     
 
     public void MakeOptimalMove()
-    {/*
-        switch (currentPlayer)    
-        {
-            case PlayerOption.X:
-
-                if(IsEmplty())
-                    ChooseSpace(0, 0);
-
-                else
-                {
-                    ChooseSpace(1, 0);
-                    for (int i = 0;i < Rows;i++)
-                    {
-                        for (int j = 0;j < Columns;j++)
-                        {
-                            if (cells[j,i].current == PlayerOption.NONE)
-                            {
-                                cells[j,i].current = PlayerOption.X;
-                            }
-                        }
-                    }
-                }
-                break;
-
-            case PlayerOption.O:
-                break;
-        }
-
-        if (click == null)
-        {
-            click = new UnityEvent();
-        }
-        click.Invoke();
-        Debug.Log("clicked");
-        */
+    {
     }
 
     bool IsEmplty()
